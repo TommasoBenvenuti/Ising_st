@@ -12,7 +12,7 @@ J_input = st.sidebar.slider("Costante di accoppiamento J (cm^-1)", 0.1, 500, 400
 
 # Parametri fissi della simulazione
 N = 35         # dimensione griglia fissa
-n_steps = 2000 # numero di step fisso
+n_steps = 1000 # numero di step fisso
 update_every = 20
 
 # Conversione J in Joule
