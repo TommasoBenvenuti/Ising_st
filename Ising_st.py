@@ -13,7 +13,7 @@ J_input = st.sidebar.slider("Costante di accoppiamento J (cm^-1)", 1, 500, 200) 
 # Parametri fissi della simulazione
 N = 35         # dimensione griglia fissa
 n_steps = 5000 # numero di step fisso
-update_every = 100
+update_every = 5
 
 # Conversione J in Joule
 planck_constant = 6.626e-34
