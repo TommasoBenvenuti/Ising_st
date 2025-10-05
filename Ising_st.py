@@ -8,12 +8,12 @@ st.set_page_config(page_title="2D Ising Model", layout="wide")
 
 # Sidebar solo per parametri fisici
 T = st.sidebar.slider("Temperatura (K)", 10, 1000, 50, step=10)
-J_input = st.sidebar.slider("Costante di accoppiamento J (cm^-1)", 200, 500, 200) # min. value, max. value, default
+J_input = st.sidebar.slider("Costante di accoppiamento J (cm^-1)", 250, 500, 300) # min. value, max. value, default
 
 # Parametri fissi della simulazione
 N = 35         # dimensione griglia fissa
-n_steps = 2500 # numero di step fisso
-update_every = 5
+n_steps = 2000 # numero di step fisso
+update_every = 20
 
 # Conversione J in Joule
 planck_constant = 6.626e-34
