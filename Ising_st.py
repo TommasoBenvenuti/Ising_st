@@ -8,7 +8,7 @@ st.set_page_config(page_title="2D Ising Model", layout="wide")
 
 # Sidebar solo per parametri fisici
 T = st.sidebar.slider("Temperatura (K)", 10, 1000, 5, step=10)
-J_input = st.sidebar.slider("Costante di accoppiamento J (cm^-1)", 0.1, 500, 400) # min. value, max. value, default
+J_input = st.sidebar.slider("Costante di accoppiamento J (cm^-1)", e-1, 500, 400) # min. value, max. value, default
 
 # Parametri fissi della simulazione
 N = 35         # dimensione griglia fissa
